@@ -12,7 +12,8 @@ public class Sorter {
     public static void main(String[] args) throws IOException {
 /* Test Git */
         /* New changes to file */
-        
+        /* New changes to file - 2 */
+
         String[] array =  loadAndSort(new FileReader("input.txt"));
         for (String s : array) {
             System.out.println(s);
