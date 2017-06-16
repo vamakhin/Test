@@ -10,9 +10,7 @@ import java.util.Arrays;
 public class Sorter {
 
     public static void main(String[] args) throws IOException {
-/* Test Git */
-        /* New changes to file */
-        /* New changes to file - 2 */
+/* New text */
 
         String[] array =  loadAndSort(new FileReader("input.txt"));
         for (String s : array) {
